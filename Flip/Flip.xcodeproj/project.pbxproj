@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C260791A66C9460086FAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C260781A66C9460086FAED /* AppDelegate.swift */; };
+		03C2607B1A66C9460086FAED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C2607A1A66C9460086FAED /* ViewController.swift */; };
+		03C2607E1A66C9460086FAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C2607C1A66C9460086FAED /* Main.storyboard */; };
+		03C260801A66C9460086FAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C2607F1A66C9460086FAED /* Images.xcassets */; };
+		03C260831A66C9460086FAED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C260811A66C9460086FAED /* LaunchScreen.xib */; };
+		03C2608F1A66C9460086FAED /* FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C2608E1A66C9460086FAED /* FlipTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C260891A66C9460086FAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C2606B1A66C9460086FAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C260721A66C9460086FAED;
+			remoteInfo = Flip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C260731A66C9460086FAED /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C260771A66C9460086FAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C260781A66C9460086FAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C2607A1A66C9460086FAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C2607D1A66C9460086FAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C2607F1A66C9460086FAED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03C260821A66C9460086FAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03C260881A66C9460086FAED /* FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C2608D1A66C9460086FAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C2608E1A66C9460086FAED /* FlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C260701A66C9460086FAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C260851A66C9460086FAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C2606A1A66C9460086FAED = {
+			isa = PBXGroup;
+			children = (
+				03C260751A66C9460086FAED /* Flip */,
+				03C2608B1A66C9460086FAED /* FlipTests */,
+				03C260741A66C9460086FAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C260741A66C9460086FAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C260731A66C9460086FAED /* Flip.app */,
+				03C260881A66C9460086FAED /* FlipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C260751A66C9460086FAED /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				03C260781A66C9460086FAED /* AppDelegate.swift */,
+				03C2607A1A66C9460086FAED /* ViewController.swift */,
+				03C2607C1A66C9460086FAED /* Main.storyboard */,
+				03C2607F1A66C9460086FAED /* Images.xcassets */,
+				03C260811A66C9460086FAED /* LaunchScreen.xib */,
+				03C260761A66C9460086FAED /* Supporting Files */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		03C260761A66C9460086FAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C260771A66C9460086FAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C2608B1A66C9460086FAED /* FlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C2608E1A66C9460086FAED /* FlipTests.swift */,
+				03C2608C1A66C9460086FAED /* Supporting Files */,
+			);
+			path = FlipTests;
+			sourceTree = "<group>";
+		};
+		03C2608C1A66C9460086FAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C2608D1A66C9460086FAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C260721A66C9460086FAED /* Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C260921A66C9460086FAED /* Build configuration list for PBXNativeTarget "Flip" */;
+			buildPhases = (
+				03C2606F1A66C9460086FAED /* Sources */,
+				03C260701A66C9460086FAED /* Frameworks */,
+				03C260711A66C9460086FAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flip;
+			productName = Flip;
+			productReference = 03C260731A66C9460086FAED /* Flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C260871A66C9460086FAED /* FlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C260951A66C9460086FAED /* Build configuration list for PBXNativeTarget "FlipTests" */;
+			buildPhases = (
+				03C260841A66C9460086FAED /* Sources */,
+				03C260851A66C9460086FAED /* Frameworks */,
+				03C260861A66C9460086FAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C2608A1A66C9460086FAED /* PBXTargetDependency */,
+			);
+			name = FlipTests;
+			productName = FlipTests;
+			productReference = 03C260881A66C9460086FAED /* FlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C2606B1A66C9460086FAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Devin Yang";
+				TargetAttributes = {
+					03C260721A66C9460086FAED = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					03C260871A66C9460086FAED = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 03C260721A66C9460086FAED;
+					};
+				};
+			};
+			buildConfigurationList = 03C2606E1A66C9460086FAED /* Build configuration list for PBXProject "Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C2606A1A66C9460086FAED;
+			productRefGroup = 03C260741A66C9460086FAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C260721A66C9460086FAED /* Flip */,
+				03C260871A66C9460086FAED /* FlipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C260711A66C9460086FAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C2607E1A66C9460086FAED /* Main.storyboard in Resources */,
+				03C260831A66C9460086FAED /* LaunchScreen.xib in Resources */,
+				03C260801A66C9460086FAED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C260861A66C9460086FAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C2606F1A66C9460086FAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C2607B1A66C9460086FAED /* ViewController.swift in Sources */,
+				03C260791A66C9460086FAED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C260841A66C9460086FAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C2608F1A66C9460086FAED /* FlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C2608A1A66C9460086FAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C260721A66C9460086FAED /* Flip */;
+			targetProxy = 03C260891A66C9460086FAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C2607C1A66C9460086FAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C2607D1A66C9460086FAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C260811A66C9460086FAED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C260821A66C9460086FAED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C260901A66C9460086FAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C260911A66C9460086FAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C260931A66C9460086FAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C260941A66C9460086FAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03C260961A66C9460086FAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flip.app/Flip";
+			};
+			name = Debug;
+		};
+		03C260971A66C9460086FAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flip.app/Flip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C2606E1A66C9460086FAED /* Build configuration list for PBXProject "Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C260901A66C9460086FAED /* Debug */,
+				03C260911A66C9460086FAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C260921A66C9460086FAED /* Build configuration list for PBXNativeTarget "Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C260931A66C9460086FAED /* Debug */,
+				03C260941A66C9460086FAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03C260951A66C9460086FAED /* Build configuration list for PBXNativeTarget "FlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C260961A66C9460086FAED /* Debug */,
+				03C260971A66C9460086FAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C2606B1A66C9460086FAED /* Project object */;
+}
