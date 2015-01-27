@@ -82,7 +82,7 @@ class CalendarViewController: UIViewController,UIScrollViewDelegate {
         
         //設定高 度
         scrollView.contentSize=CGSizeMake(maxOWidth,tempCenter.frame.height)
-
+        scrollView.showsHorizontalScrollIndicator=false
         view.addSubview(scrollView)
         
     }
