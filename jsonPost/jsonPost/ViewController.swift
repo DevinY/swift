@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         var error: NSError?
         
         // create some JSON data and configure the request
-        var varname="TTTT";
+        var varname="HELLO";
+        //組Json字串
         let jsonString = "json=[{\"str\":\"\(varname)\",\"num\":1},{\"str\":\"Goodbye\",\"num\":99}]"
         request.HTTPBody = jsonString.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
         request.HTTPMethod = "POST"
@@ -67,16 +68,5 @@ class ViewController: UIViewController {
         }
         return [AnyObject]()
     }
-    
-    
-    func JSONParseDictionary(jsonString: String) -> [String: AnyObject] {
-        if let data = jsonString.dataUsingEncoding(NSUTF8StringEncoding) {
-            if let dictionary = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(0), error: nil)  as? [String: AnyObject] {
-                return dictionary
-            }
-        }
-        return [String: AnyObject]()
-    }
-
 }
 

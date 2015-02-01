@@ -13,7 +13,6 @@
 		03955EB51A7DEE080012A38D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03955EB41A7DEE080012A38D /* Images.xcassets */; };
 		03955EB81A7DEE080012A38D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03955EB61A7DEE080012A38D /* LaunchScreen.xib */; };
 		03955EC41A7DEE080012A38D /* jsonPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03955EC31A7DEE080012A38D /* jsonPostTests.swift */; };
-		03955ECE1A7E0FEF0012A38D /* PHPServerSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03955ECD1A7E0FEF0012A38D /* PHPServerSide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		03955EBD1A7DEE080012A38D /* jsonPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03955EC21A7DEE080012A38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03955EC31A7DEE080012A38D /* jsonPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonPostTests.swift; sourceTree = "<group>"; };
-		03955ECD1A7E0FEF0012A38D /* PHPServerSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPServerSide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 				03955EB41A7DEE080012A38D /* Images.xcassets */,
 				03955EB61A7DEE080012A38D /* LaunchScreen.xib */,
 				03955EAB1A7DEE080012A38D /* Supporting Files */,
-				03955ECD1A7E0FEF0012A38D /* PHPServerSide.swift */,
 			);
 			path = jsonPost;
 			sourceTree = "<group>";
@@ -216,7 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03955EB01A7DEE080012A38D /* ViewController.swift in Sources */,
-				03955ECE1A7E0FEF0012A38D /* PHPServerSide.swift in Sources */,
 				03955EAE1A7DEE080012A38D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +407,7 @@
 				03955EC91A7DEE080012A38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03955ECA1A7DEE080012A38D /* Build configuration list for PBXNativeTarget "jsonPostTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +416,7 @@
 				03955ECC1A7DEE080012A38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
